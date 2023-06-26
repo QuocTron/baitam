@@ -1,0 +1,62 @@
+.ant-layout-sider-children {
+    height: 100vh !important;
+    background-color: var(--white);
+}
+
+.ant-layout-header  {
+    width: 100% !important;
+    padding: 0 !important;
+    background-color: var(--white);
+}
+
+/* Sidebar */
+.ant-layout-sider.ant-layout-sider-dark.sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.sidebar {
+    height: 100vh;
+}
+
+.ant-layout {
+    position: relative;
+}
+
+.logo-primary {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.site-layout-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.site-layout-info h4 {
+    margin-left: 6px;
+}
+
+.text-welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.header-top {
+    position: relative;
+}
+
+/* Custom menu icon  */
+.custom-menu-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 24px;
+}
